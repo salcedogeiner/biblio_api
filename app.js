@@ -40,8 +40,6 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
-console.log(process.env.HOLA_MUNDO)
-
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development
